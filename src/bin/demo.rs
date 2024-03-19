@@ -15,7 +15,7 @@ fn main() {
     let p: *const u8 = &x;
     let q: *const u8 = &x;
     // # Safety
-    // `p` and `q` point at unique valid mutable data on the
+    // `p` and `q` point at unique valid immutable data on the
     // stack in this block.
     // # Need
     // This is a demo.
